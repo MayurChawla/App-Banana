@@ -1,6 +1,8 @@
 var translatebtn = document.querySelector("#btn-translate");
+var inputtxt = document.querySelector("#input-txtarea");
+var outputtxt = document.querySelector("#output-txtarea");
 
 function DoTranslation() {
-    console.log("Translated text will appear here.");
+    outputtxt.innerHTML = inputtxt.value;
 }
 translatebtn.addEventListener("click",DoTranslation);

@@ -1,7 +1,7 @@
 body {
-
+    align-items: center;
 }
-.txt-area {
+#input-txtarea, #output-txtarea {
     background-color: antiquewhite;
     height : 150px;
     width : 75%;
@@ -12,4 +12,10 @@ body {
     font-size: large;
     padding : 1rem;
     margin : auto;
+}
+#btn-translate {
+    display: block;
+    margin : 20px auto;
+    background-color: antiquewhite;
+    color : darkred;
 }
