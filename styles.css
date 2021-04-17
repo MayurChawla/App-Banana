@@ -1,5 +1,23 @@
+:root {
+    --primary-color : #e0c52c;
+    --secondary-color : #f4d159;
+}
 body {
     align-items: center;
+    margin:0px;
+}
+.header {
+    background: var(--primary-color);
+    font-size: 4rem;
+    text-align: center;
+    padding : 2rem;
+    margin-bottom : 2rem;
+    align-items: center;
+}
+.header .hero {
+    display : block;
+    margin : auto;
+    width : 200px;
 }
 #input-txtarea, #output-txtarea {
     background-color: antiquewhite;
