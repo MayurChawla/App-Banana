@@ -15,7 +15,6 @@ body {
     align-items: center;
 }
 .header .hero {
-    display : block;
     margin : auto;
     width : 200px;
 }
